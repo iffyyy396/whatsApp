@@ -1,0 +1,153 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.backbtn {
+    display: flex!important;
+    justify-content: center!important;
+    margin: 20px!important;
+}
+.btn-success {
+    width: 250px!important;
+    font-size: 20px!important;
+    margin: 20px!important;
+}
+header
+{
+    padding: 35px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap !important;
+    align-content: flex-start;
+    background-color: #eaeaea;
+    width: 100%;
+    font-size: 3em;
+
+}
+#githubPagesLink:link{
+     text-decoration: none;
+     color: white !important;
+}
+.span
+{
+    background:linear-gradient(to right,#b8e6d0,#00e676,#b8e6d0);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+}
+
+.chats-list{
+    overflow: scroll;
+    
+}
+
+.chats-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.contact-chat-info {
+    padding: 8px;
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    margin: 0;
+    color: #BDBDBD;
+    font-weight: 100;  
+}
+
+p{
+    margin: 0;
+    font-size: 1em;  
+    min-width: 50%;
+}
+
+span {
+    color: #9E9E9E;   
+    margin-right: 5px;
+}
+
+.contact-profile-pic {
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 500px;
+}
+
+
+.chat{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background.png);
+}
+
+h4 {
+    margin-top: 3em;
+    color: #BDBDBD;
+    font-weight: 100;
+}
+
+.chats-list-item:hover {
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+
+.double-ticks {
+    color: #29B6F6;
+}
+
+.chat-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-photo{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1000px;
+}
+
+.dial-icon, .email-icon {
+    font-size: 2em;
+}
+
+.dial-icon {
+    color: #3c8105;
+}
+
+.email-icon {
+    color: #8f478e;
+}
